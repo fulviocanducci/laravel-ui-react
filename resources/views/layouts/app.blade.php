@@ -11,11 +11,12 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
 
+    <link href="/build/assets/app.c090eeea.css" rel="stylesheet">    
     <!-- Scripts -->
-    @viteReactRefresh
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <!-- @viteReactRefresh
+    @vite(['resources/sass/app.scss', 'resources/js/app.js']) -->
 </head>
 <body>
     <div id="app">
@@ -72,10 +73,10 @@
                 </div>
             </div>
         </nav>
-
         <main class="py-4">
             @yield('content')
         </main>
     </div>
+    <script src="/build/assets/app.c80cc02a.js"></script>
 </body>
 </html>
